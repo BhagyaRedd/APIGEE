@@ -1,7 +1,7 @@
 steps:
 - name: 'gcr.io/cloud-builders/mvn'
   entrypoint: 'bash'
-  args: ['-c', 'mvn install -Ptest -Dusername=apigee-deploy@example.com -Dpassword=$$PASSWORD']
+  args: ['-c', 'mvn install -Ptest -Dusername=g.bhagya9@gmail.com -Dpassword=$$PASSWORD']
   dir: 'HelloWorld'
   secretEnv: ['PASSWORD']
 
